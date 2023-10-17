@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.stats": "csv (whitespace)",
+        "__hash_table": "c",
+        "__split_buffer": "c",
+        "__tree": "c",
+        "array": "c",
+        "bitset": "c",
+        "deque": "c",
+        "initializer_list": "c",
+        "map": "c",
+        "queue": "c",
+        "random": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "string.h": "c",
+        "in.h": "c",
+        "socket.h": "c",
+        "pthread.h": "c",
+        "stdlib.h": "c",
+        "stat.h": "c",
+        "file.h": "c",
+        "net.h": "c",
+        "hashtable.h": "c"
+    }
+}
