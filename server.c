@@ -46,8 +46,8 @@ struct thread_data {
 	struct cache *cache;
 };
 
-#define SERVER_FILES "./serverfiles"
-#define SERVER_ROOT "./serverroot"
+#define SERVER_FILES "./404"
+#define SERVER_ROOT "./root"
 
 /**
  * Send an HTTP response
@@ -194,7 +194,7 @@ void get_file(int fd, struct cache *cache, char *request_path)
 	char path[512] = {0};
 	struct myfile_data *file;
 
-	strcat(path, "serverroot/");
+	strcat(path, "root/");
 	strcat(path, request_path);
 
 	printf("%s\n", path);
@@ -322,7 +322,7 @@ int get_connection_header(char *request)
 }
 
 void post_save(void *data, int len) {
-	FILE *f = fopen("serverroot/hexdump.bin", "w");
+	FILE *f = fopen("root/hexdump.bin", "w");
 
 	fwrite(data, 1, len, f);
 

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Krish Suraparaju's Portfolio"/>
+    <meta property="og:description" content="Krish Suraparaju's personal portfolio website"/>
+    <meta property="og:type" content="website" />
+    <!-- <meta
+        property="og:image"
+        content="https://freefolio.web.app/images/outlines.png"
+    /> -->
+    <!-- <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="Krish Suraparaju's twitter">
+    <meta name="twitter:title" content="Krish Suraparaju's twitter" />
+    <meta name="twitter:description" content="Kirsh Suraparaju's twitter" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="./js/script.js" defer></script>
+    <title>Krish Suraparaju's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+
+          <h1>KS</h1>
+
+        </div> 
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./course-review.html">CMU Course Review</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-text-container" data-aos="fade-up">
+            <p>Hey there,</p>
+            <h2>I am Krish Suraparaju</h2>
+            <p>a mathematics student at Carnegie Mellon Univeristy</p>
+          </div>
+          <a href="#contact" class="hero-button" data-aos="fade-up">Let's connect!</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <!-- <div class="section-highlight" data-aos="fade-up">ABOUT</div> -->
+        <div class="about-container" data-aos="fade-up">
+          <div class="about-card">
+            <section class="about-content">
+              <h2>> About</h2>
+              <!-- About template -->
+              <p>
+                I am a candidate for BS in Mathematics at Carnegie Mellon University. On campus, I am a teaching assistant for
+                CMU's 15-122: Principles of Imperative Computation course, and work as an AI 
+                research assistant for the Mohimani Lab.</p> 
+              <br>
+              <p> 
+                I am interested in the intersection of mathematics and computer science, and
+                am currently exploring the fields of machine learning. Specifically, I am working at
+                Mohimani Lab to help use machine learning models for predicting the structures of non-ribosomal peptide
+                synthetases (NRPSs) from their amino acid sequences. NRPSs are large, modular enzymes
+                that produce a wide variety of natural products, including antibiotics, antifungals, 
+                and even anticancer drugs. 
+              </p> <br>
+              <!-- <p>
+                In my free time, I enjoy playing tennis, running, and playing formula 1 racing games. 
+                During breaks, I like to travel back home to Grafton, Massachusetts and spend time with
+                my family and friends. 
+              </p> -->
+            </section>
+          
+
+            <!-- <section class="about-content tech-stack-section">
+              <h3>My current tech stack</h3>
+              <div class="tech-stack-grid">
+                <div class="tech-stack">
+                  <img src="./assets/icons/html5.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/css.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/javascript.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/react.svg" alt="html5-icon" />
+                </div>
+              </div>
+            </section> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <!-- <div class="section-highlight" data-aos="fade-up">Portfolio</div> -->
+        <div class="portfolio-container" data-aos="fade-up">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2>> Portfolio</h2>
+
+              <!-- input projects inside project container -->
+              <div class="project-container">
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/mindTune.jpeg"
+                    alt="project-1"
+                  />
+                  <h3>MindTune</h3>
+                  <h5>JavaScript, ReactJS, PostgreSQL, AWS</h5>
+                  <p>
+                    Designed and implemented a ReactJS web application meant to help users track their cognitive health.
+                    Program asks users to record responses to a series of questions, which are designed to assess cognitive function
+                    by analyzing vocal biomarkers such as pitch, intonation, and speech rate, and determine a cognitive score.
+                    Utilized ReactJS to create the front end of the website, PostgresSQL for database management relating to user
+                    data and Amazon Web Services for hosting
+                  </p>
+
+                  <!-- <div class="project-card-links">
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div> -->
+                </section>
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/nrps.png"
+                    alt="project-2"
+                  />
+                  <h3>AdenPredictor</h3>
+                  <h5>Python, Rust</h5>
+                  <p>
+                    Working as part of Mohimani Lab on improving the accuracy of a machine learning model that predicts the 
+                    Adenylation (A) domain of a non-ribosomal peptide synthetase (NRPS) given its amino acid sequence. 
+                    A-domains are responsible for selecting and activating amino acids for incorporation into the 
+                    peptide product. I am working on parsing the MIBiG database of NRPSs genes and 
+                    analyzing the data to determine local and global contexts that help predict the A-domain specificity.
+                    For example, an A-domain preceded by a heterocyclization (Cy) domain is more likely to select
+                    Serine (Ser) as its amino acid substrate. 
+                  </p>
+
+                  <!-- <div class="project-card-links">
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div> -->
+                </section>
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/dataopen.png"
+                    alt="project-3"
+                  />
+                  <h3>ParkWell: NYC</h3>
+                  <h5>Python, Seaborn, Pandas, Tensorflow</h5>
+                  <p>
+                  Collaborated with a team for the Citadel Data Open competition to answer
+                  the question: how can publicly available and crowdsourced data be used to diagnose park health and pinpoint
+                  areas for intervention in New York City? Answered this research question by developing a Convolutional Neural
+                  Network for predictively diagnosing the eco health of various parks in New York City using geo satellite images.
+                  Performed Exploratory Data Analysis on collected datasets, ran regression analysis on several
+                  predictive metrics, and worked on developing the convolutional autoencoder
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="./assets/pdf/Team_12_report.pdf">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/pdf_icon.png"
+                        alt="Report"
+                      />
+                      Paper
+                    </a>
+                  </div>
+                </section>
+
+                
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/rnapred.png"
+                    alt="project-4"
+                  />
+                  <h3>RNAPredictor</h3>
+                  <h5>Python, Pandas, Tensorflow</h5>
+                  <p>
+                    Worked with a team to develop a deep learning framework for RNA secondary structure prediction by calculating structure probabilities and then maximizing probability using dynamic programming. 
+                    Wrote the DP recurrence relations and helped clean dataset for the Convolutional Neural Network (CNN) model. Compared deep learning model performance against existing Nussinov
+                    and Zuker algorithms on 1000 sequences from bprna dataset. Results showed that our framework outperformed the Nussinov algorithm, but not the
+                    Zucker algorithm. We concluded this is likely because our model was not trained on pseudo-knotted sequences, which the Zuker algorithm is able to handle. 
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="./assets/pdf/RNA_Secondary_Structure_Prediction.pdf">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/pdf_icon.png"
+                        alt="Report"
+                      />
+                      Paper
+                    </a>
+                  </div>
+                </section>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact">
+        <!-- <h2 class="section-highlight" data-aos="fade-up">Contacts</h2> -->
+        <div class="contact-container" data-aos="fade-up">
+          <div class="contact-card">
+            <h2>> Contacts</h2>
+            <p>You can contact directly me through these following links</p>
+
+            <div class="contact-links">
+
+
+              <a href="mailto:csurapar@cs.cmu.edu">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/email.png"
+                  alt="emai;-icon"
+                />
+                Email
+              </a>
+
+              <a href="https://www.linkedin.com/in/krish-suraparaju-9890481b7/">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/linkedin.png"
+                  alt="linkedin-icon"
+                />
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          Made by Krish Suraparaju. Written in HTML, CSS, and JavaScript. Hosted 
+          on a simple <a href="https://firebase.google.com/" style="color: #a7c957;">webserver</a> that I wrote in C.
+        </p>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+        once: true,
+        delay: 0
+      });
+    </script>
+  </body>
+</html>

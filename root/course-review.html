@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Krish Suraparaju's Portfolio"/>
+    <meta property="og:description" content="Krish Suraparaju's personal portfolio website"/>
+    <meta property="og:type" content="website" />
+    <!-- <meta
+        property="og:image"
+        content="https://freefolio.web.app/images/outlines.png"
+    /> -->
+    <!-- <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="Krish Suraparaju's twitter">
+    <meta name="twitter:title" content="Krish Suraparaju's twitter" />
+    <meta name="twitter:description" content="Kirsh Suraparaju's twitter" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="./js/script.js" defer></script>
+    <title>Krish Suraparaju's Portfolio</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar-nav">
+          <div class="nav-logo">
+  
+            <h1>KS</h1>
+  
+          </div> 
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-nav"
+            aria-expanded="false"
+          ></button>
+  
+          <ul id="primary-nav" class="primary-nav" data-visible="false">
+            <li>
+              <a class="nav-link" href="./index.html#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./index.html#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./course-review.html">CMU Course Review</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+        <section id="cmu-course-reviews">
+            <!-- <div class="section-highlight" data-aos="fade-up">CMU Course Reviews</div> -->
+            <div class="cmu-course-reviews-container" data-aos="fade-up">
+                <div class="cmu-course-reviews-card">
+                    <div class="cmu-course-review-content">
+                        <h2>> Course Reviews</h2>
+                        <br>
+                        <p>
+                            Below are a list of courses I have taken during my time at 
+                            Carnegie Mellon University. I included a brief review of
+                            each course, what I liked and disliked about the course, and
+                            any other general comments regarding the course material.
+                            I hope this helps you in your course selection process! Courses 
+                            that I thought were particularly interesting are marked with ✭,
+                            and courses that I think makes CMU worth attending are marked with
+                            ❤️. 
+                        </p>
+                        <br>
+                        <div class="cmu-course-reviews-container">
+                            <section class="cmu-course-reviews-card">
+                                <h3>21-127: Concepts of Mathematics</h3>
+                                <h4>Professor(s): Clive Newstead</h4>
+                                <p>
+                                    CMU's 21-127 was my first introduction to formal mathematics
+                                    and proof writing. The course provided me with new perspectives 
+                                    on discrete math and reshaped my view of mathematics as a formal
+                                    logical system. I found the transition to this formal style 
+                                    challenging but rewarding as it deepened my mathematical reasoning 
+                                    skills. Clive Newstead was an amazing lecturer. During his office 
+                                    hours, he would often go into the history of theorems and proofs,
+                                    which I found fascinating. Though this course is required for most
+                                    STEM majors at CMU, I would highly recommend non-STEM majors to take
+                                    it with Clive since it provides a new perspective on mathematics.
+                                </p>
+                            </section>
+                        </div>
+                        <br>
+                        <div class="cmu-course-reviews-container">
+                            <section class="cmu-course-reviews-card">
+                                <h3>15-122: Principles of Imperative Computation</h3>
+                                <h4>Professor(s): Iliano Cervesato, Dilsun Kaynar</h4>
+                                <p>
+                                    15-122 was my first computer science class at CMU. It teaches you how to
+                                    write  provably safe and correct programs in a subset of C called C0. 
+                                    The course is very difficult to get an A in as a freshman since a lot of 
+                                    the material is new and it is designed to be challenging. Regardless,
+                                    I found the course to be rewarding as it taught me how to implement the
+                                    data structures and algorithms used in the industry in a bare-bones
+                                    language. The programming assignments are actually interesting, and the final project
+                                    for the course even requires you to implement a virtual machine in C. Overall,
+                                    I think 15-122 is a great introduction to computer science, and has the added
+                                    benefit of making you a well-versed in C right off the bat.
+                                    <br><br>
+                                    P.S. I am currently TAing this course, so I am a bit biased. It's still a great course to take, though!
+                                    I think this along with 21-127/21-128/15-151 are CMU's must take courses for anyone, not just STEM majors.
+                                    Functions are pointers!
+                                </p>
+                            </section>
+                        </div>
+                        <br>
+                        <div class="cmu-course-reviews-container">
+                            <section class="cmu-course-reviews-card">
+                                <h3>15-150: Principles of Functional Programming ✭ </h3>
+                                <h4>Professor(s): Micheal Erdmann, Karl Crary</h4>
+                                <p>
+                                    15-150 is CMU's introduction to functional programming course. It is taught in
+                                    Standard ML, and teaches you how to write provably correct programs using the functional programming paradigm.
+                                    Unlike 15-122, 15-150 is quite easy to get an A if you take it with Erdmann and Crary. The 
+                                    programming assignments are challenging, but the exams are very reasonable. The course 
+                                    gave me a new perspective on programming, one that I think is very useful for writing correct
+                                    code. For example, it's interesting to see that since every SML function is recursive, we can prove 
+                                    correctness of our programs using induction. Some of the proofs are very elegant, especially ones
+                                    relating to functors and modules. I attended Crary's lectures, and he was amazing. Some people thought he went too fast, 
+                                    but that's why I liked him. He was very clear and concise, and his explanations were
+                                    better than Erdmann's. 15-150 is overall an excellent course, and I would highly recommend it to anyone 
+                                    interested in computer science. Functions are values! 
+                                </p>
+                            </section>
+                        </div>
+                        <br>
+                        <div class="cmu-course-reviews-container">
+                            <section class="cmu-course-reviews-card">
+                                <h3>02-251: Great Ideas in Computational Biology ❤️</h3>
+                                <h4>Professor(s): Phillip Compeau</h4>
+                                <p>
+                                    02-251 made me fall in love with Computational
+                                    Biology, and is one of the main reasons I am working at Mohimani Lab right now. Essentially,
+                                    the course is a survey of all the pivotal algorithms that gave birth to the field of
+                                    Computational Biology. From genome sequencing, to systems biology, to even neural networks,
+                                    02-251 covers it all. It is a theory heavy class as a lot of the algorithms
+                                    discussed make use of advanced techniques such as dynamic programming and graph theory. 
+                                    Be prepared to do a lot of proofs about graphs and trees, but also  
+                                    get ready to implement a lot of algorithms from scratch. From the Needleman-Wunsch alignment
+                                    algorithm to creating multi layer perceptrons, this course will teach you how to 
+                                    implement the most infuential algorithms in Computational Biology. Phillip is an excellent 
+                                    lecturer, and his passion for the subject is evident in his lectures. He is also very 
+                                    approachable and is always willing to help. Although the official pre-reqs for this class are only
+                                    15-112 and 21-127/21-128/15-151, I would recommend taking 15-122 either before or concurrently 
+                                    since it will help you with the programming assignments. Whether you are a computer scientist, 
+                                    biologist, chemist, or mathematician, 02-251 is a must take course. 
+                                </p>
+                            </section>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <p>
+            Made by Krish Suraparaju. Written in HTML, CSS, and JavaScript. Hosted 
+            on a simple <a href="https://firebase.google.com/" style="color: #a7c957;">webserver</a> that I wrote in C.
+          </p>
+        </div>
+      </footer>
+      
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>       
+        AOS.init({
+          once: true,
+          delay: 0
+        });
+      </script>
+    </body>

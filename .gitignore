@@ -1,2 +1,4 @@
 *.o
 *.log
+cache_tests/*
+my_tests/*
